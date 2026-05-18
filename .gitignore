@@ -1,2 +1,6 @@
 # CAHIER DES CHARGES 
 cahier_des_charges_notekeeper_api.md
+
+# npm
+node_modules
+package-lock.json
