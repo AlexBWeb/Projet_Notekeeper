@@ -2,5 +2,5 @@
 cahier_des_charges_notekeeper_api.md
 
 # npm
-node_modules
+node_modules/*
 package-lock.json
