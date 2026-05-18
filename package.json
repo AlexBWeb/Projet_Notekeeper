@@ -1,0 +1,20 @@
+{
+  "name": "projet_notekeeper",
+  "version": "1.0.0",
+  "description": "Une API REST permettant de gérer des notes personnelles.",
+  "homepage": "https://github.com/AlexBWeb/Projet_Notekeeper#readme",
+  "bugs": {
+    "url": "https://github.com/AlexBWeb/Projet_Notekeeper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexBWeb/Projet_Notekeeper.git"
+  },
+  "license": "ISC",
+  "author": "FOY Alexis",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
