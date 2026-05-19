@@ -7,7 +7,7 @@ const {
     createNote,
     updateNote,
     deleteNote,
-} = require('../controllers/noteController');
+} = require('../controllers/notesController');
 
 const createValidators = [
     body('title').trim().notEmpty().withMessage('Le titre est obligatoire')
