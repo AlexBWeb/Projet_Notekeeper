@@ -205,9 +205,9 @@ L'API expose les routes suivantes sur la ressource `/api/notes` :
 
 **Durée estimée : 3h**
 
-- [ ] Créer le dossier `routes/` et le fichier `routes/notes.js`
-- [ ] Créer le dossier `controllers/` et le fichier `controllers/notesController.js`
-- [ ] Implémenter les 5 fonctions du contrôleur :
+- [x] Créer le dossier `routes/` et le fichier `routes/notes.js`
+- [x] Créer le dossier `controllers/` et le fichier `controllers/notesController.js`
+- [x] Implémenter les 5 fonctions du contrôleur :
 
 **getAllNotes** — Récupère toutes les notes
 ```
@@ -252,13 +252,13 @@ DELETE /api/notes/:id → 200 OK + message de confirmation
 
 > C'est le critère le plus important de CP6 : *"Toutes les entrées sont contrôlées et validées dans les composants serveurs sécurisés."*
 
-- [ ] Utiliser `express-validator` pour valider les données reçues dans POST et PUT :
+- [x] Utiliser `express-validator` pour valider les données reçues dans POST et PUT :
   - `title` : présent et entre 3 et 100 caractères
   - `content` : présent et non vide
   - `author` : présent et non vide
   - `tags` : si présent, doit être un tableau (pas une chaîne de caractères)
-- [ ] Si la validation échoue, retourner un `400 Bad Request` avec la liste des erreurs
-- [ ] Ne jamais stocker en base des données non validées
+- [x] Si la validation échoue, retourner un `400 Bad Request` avec la liste des erreurs
+- [x] Ne jamais stocker en base des données non validées
 
 **Ressources :**
 - [express-validator — Guide de démarrage](https://express-validator.github.io/docs/guides/getting-started)
