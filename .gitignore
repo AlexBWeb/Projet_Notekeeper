@@ -1,6 +1,9 @@
 # CAHIER DES CHARGES 
-cahier_des_charges_notekeeper_api.md
+# cahier_des_charges_notekeeper_api.md
 
 # npm
-node_modules/*
+node_modules/
 package-lock.json
+
+# VARIABLES D'ENVIRONNEMENT
+.env
